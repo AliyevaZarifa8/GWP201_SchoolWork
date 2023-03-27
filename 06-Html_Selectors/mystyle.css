@@ -1,0 +1,81 @@
+#madman {
+  height: 100px;
+  width: 90px;
+}
+#zrf3 {
+  resize: none;
+}
+#apple {
+  background-color: rgb(144, 228, 25);
+}
+#glass:hover {
+  background-color: blue;
+}
+#glass {
+  background-color: green;
+}
+#mal {
+  background-color: rgb(219, 99, 18);
+}
+.mrs {
+  color: brown;
+}
+#never li {
+  color: black;
+}
+#bal {
+  color: aqua;
+}
+.fistiq {
+  color: red;
+}
+.banan {
+  color: royalblue;
+}
+div {
+  padding: 100px 100px;
+}
+#yas {
+  background-color: rgb(216, 26, 191);
+}
+#w3es {
+  color: blue;
+}
+#nlo {
+  color: rgb(17, 188, 74);
+}
+#nju {
+  color: rgb(211, 242, 9);
+}
+#bfy {
+  color: aqua;
+}
+#ok :focus {
+  background-color: black;
+}
+.vvv :focus {
+  background-color: green;
+}
+#mmm {
+  color: black;
+  background-color: rgb(18, 118, 133);
+}
+#mmm:hover {
+  background-color: rgb(61, 13, 137);
+  color: rgb(42, 165, 48);
+}
+#yas {
+  padding: 100px 100px;
+}
+#yas {
+  display: flex;
+}
+#apple {
+  display: flex;
+}
+#yas {
+  display: flex;
+}
+input:focus {
+  background-color: rgb(78, 201, 7);
+}
