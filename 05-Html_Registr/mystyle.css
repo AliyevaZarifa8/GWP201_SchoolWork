@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.common {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  column-gap: 30px;
+}
+.text h1 {
+  color: brown;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+input[type="radio"] {
+  accent-color: red;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  /* height: 100vh; */
+}
+h1 {
+  text-align: center;
+  color: brown;
+}

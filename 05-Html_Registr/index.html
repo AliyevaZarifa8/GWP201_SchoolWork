@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./mystyle.css" />
+  </head>
+  <body>
+    <section id="first">
+      <form action="./home.html">
+        <div class="common">
+          <div class="text">
+            <b> <h1>Registr</h1></b>
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              name=""
+              id="username"
+              placeholder="enter a username"
+              minlength="4"
+              required
+            /><br /><br />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="enter an email"
+              required
+            /><br /><br />
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name=""
+              id="password"
+              minlength="6"
+              placeholder="enter a password"
+              required
+            />
+            <br /><br />
+
+            <select name="" id="" required>
+              <option value="" hidden selected>Universty</option>
+              <option value="">GDU</option>
+              <option value="">BDU</option>
+              <option value="">ADAU</option>
+              <option value="">UNEC</option>
+              <option value="">ADNSU</option>
+              <option value="">AzTu</option>
+              <option value="">ADPU</option>
+            </select>
+            <select name="" id="" required>
+              <option value="">None</option>
+              <option value="">Tovuz</option>
+              <option value="">Ucar</option>
+              <option value="">Baki</option>
+              <option value="">Kurdemr</option>
+              <option value="">Agdas</option>
+              <option value="">Yevlax</option>
+              <option value="">Goran</option></select
+            ><br /><br />
+            <input type="file" name="" id="" required /><br /><br />
+            <label for="">Gender:</label>
+            <input type="radio" name="gender" id="man" />
+            <label for="man">Man</label>
+            <input type="radio" name="gender" id="woman" required />
+            <label for="woman">Woman</label><br /><br />
+            <input type="submit" value="Add User" />
+          </div>
+          <div class="image">
+            <img src="./rocket.png" alt="" width="500px" />
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
