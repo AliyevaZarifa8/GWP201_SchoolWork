@@ -1,0 +1,59 @@
+.container{
+    width: 99%;
+    height: 54vh;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    
+  
+.first{
+     ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 9px;
+        & li{
+            color: grey;
+            h1{
+                font-weight: 700;
+                color: black;
+            }
+          }
+
+}
+}
+.seconds{
+    ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 9px; 
+        & li{
+            color: grey;
+            h1{
+                font-weight: 700;
+                color: black;
+            }
+          }
+    }
+}
+.third{
+    ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 9px; 
+        & li{
+            color: grey;
+            h1{
+                font-weight: 700;
+                color: black;
+            }
+            a{
+                color: gray;
+            }
+          }
+    }
+}
+
+
+
+}

@@ -1,0 +1,26 @@
+nav {
+  width: 99%;
+  height: 10vh;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    li {
+      a {
+        color: #fff;
+        &:hover {
+          color: black;
+          background-color: #fff;
+          padding: 8px;
+          border-radius: 5px;
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
+}
