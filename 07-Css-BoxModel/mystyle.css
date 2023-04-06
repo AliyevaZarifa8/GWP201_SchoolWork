@@ -106,3 +106,6 @@ nav ul li a:hover {
   display: flex;
   column-gap: 15px;
 }
+.icon .icons a {
+  color: rgb(217, 18, 65);
+}
