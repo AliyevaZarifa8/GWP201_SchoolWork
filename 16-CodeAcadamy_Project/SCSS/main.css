@@ -40,6 +40,7 @@ header nav ul li a {
 }
 #sec1 .bgc {
   background-image: url(../images/Beautiful-Background-Images-022.jpg);
+  background-attachment: fixed;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -48,7 +49,7 @@ header nav ul li a {
 
 #sec2 {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 #sec2 .text {
   display: flex;
@@ -62,13 +63,14 @@ header nav ul li a {
 }
 #sec3 .img {
   background-image: url(../images/112121.jpg);
+  background-attachment: fixed;
   background-size: cover;
   width: 100%;
   height: 100vh;
   margin-top: 150px;
 }
 #sec3 .img .color {
-  background-color: rgb(43, 39, 39) 0, 0, 0, 0.7;
+  background-color: rgb(133, 8, 8) 0, 0, 0, 0.7;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -91,9 +93,21 @@ header nav ul li a {
   align-items: center;
 }
 #sec1 .row .box:hover {
-  animation: rotation 1s linear;
+  -webkit-animation: rotation 1s linear;
+          animation: rotation 1s linear;
   background-image: url(../images/minions.jpeg);
   background-size: cover;
+}
+@-webkit-keyframes rotation {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  0% {
+    transform: rotateX(0deg);
+  }
 }
 @keyframes rotation {
   0% {
