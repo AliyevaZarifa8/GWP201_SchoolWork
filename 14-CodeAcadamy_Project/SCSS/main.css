@@ -122,4 +122,65 @@ header nav ul li a {
 }
 #sec1 .row .box:hover p {
   display: none;
+}
+
+.contact {
+  margin-top: 15rem;
+  height: 80vh;
+  position: relative;
+  border: 1px solid #000;
+  background-color: #f4f5f9;
+}
+.contact .row {
+  height: 80vh;
+}
+.contact h3 {
+  color: yellowgreen;
+  font-size: 39px;
+  font-weight: 700;
+}
+.contact h2 {
+  padding-left: 4rem;
+  font-size: 50px;
+  color: blue;
+  font-weight: bolder;
+}
+.contact form input {
+  margin-left: 10px;
+  color: #373a3c;
+  border: 1px dashed #373a3c;
+  background-color: #fff;
+  width: 240px;
+  height: 50px;
+  padding: 7px 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1;
+  outline: #f4f5f9;
+  margin-bottom: 10px;
+}
+.contact form select {
+  border: 1px dashed #373a3c;
+  background-color: #fff;
+  width: 100px;
+  height: 50px;
+  padding: 8px 20px;
+  margin-left: 10px;
+  color: #373a3c;
+  outline: #f4f5f9;
+}
+.contact form .number {
+  width: 380px;
+}
+.contact form .jobs {
+  width: 495px;
+}
+.contact form button {
+  margin-top: 2rem;
+  width: 496px;
+  margin-left: 10px;
+  background-color: aqua;
+  padding: 15px 0;
+  border: none;
+  color: #373a3c;
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
