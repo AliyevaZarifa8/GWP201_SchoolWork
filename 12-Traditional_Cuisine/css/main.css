@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Playfair+Display:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nothing+You+Could+Do&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 100%;
+}
+
+header {
+  background-image: url(../Imagee/bg-1.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+header nav ul {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 18px;
+  position: relative;
+}
+header nav ul li a:hover::after {
+  position: absolute;
+  left: 15px;
+  bottom: 4px;
+  content: "";
+  width: 27px;
+  height: 3px;
+  background-color: red;
+  display: block;
+}
+header nav ul li img {
+  width: 55px;
+}
+header .content {
+  display: flex;
+  justify-content: center;
+  height: 70%;
+  align-items: center;
+}
+header .content .text {
+  display: grid;
+  row-gap: 30px;
+}
+header .content .text h3 {
+  color: #8a7162;
+  text-decoration: line-through;
+  font-family: "Nothing You Could Do", cursive;
+  font-family: "Playfair Display", serif;
+}
+header .content .text h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  width: 60%;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+header .content .text .button {
+  padding: 15px 45px;
+  background-color: #8a7162;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+header .content .text .button:hover {
+  background-color: #a1948c;
+}
+header .content .cover-img {
+  transform: translate(-25%, 40%);
+}
+header .content .cover-img img {
+  width: 420px;
+  transition: 3s;
+}
+header .content .cover-img img:hover {
+  transform: translate(0, 40%);
+}/*# sourceMappingURL=main.css.map */
